@@ -1,0 +1,54 @@
+@media screen and (min-width: 800px) {
+    header{
+        margin-left:8%;
+        
+        h1{
+            width:60%;
+            text-align:left;
+            margin-top:100px;
+            margin-bottom:100px;
+            font-size:40px;
+        }
+    }
+
+    .fave-section{
+		margin-left:16%;
+        margin-right:16%;
+        line-height: 40px;
+
+        h2{
+            font-size:34px;
+        }
+
+        .fave-start{
+            margin-bottom:120px;
+        }
+
+        p{
+            padding:15px;
+            border-radius:10px;
+            font-size:20px;
+        }
+        }
+        footer{
+            display:flex;
+            flex-direction:row;
+            margin-top:0px;
+            p{
+                margin-left:0%;
+                margin-right:0px;
+                font-size:18px;
+            }
+
+            #leftfoot{
+                margin-top:0px;
+                margin-left:8%;
+            }
+            #rightfoot{
+                margin-top:0px;
+                margin-left:40%;
+            }
+        }
+
+
+}

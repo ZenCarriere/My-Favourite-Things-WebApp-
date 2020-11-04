@@ -1,0 +1,17 @@
+body {
+    font-family: $main-font;
+    color: $main-text-color;
+    h1,h2{
+        font-family:$header-font;
+        color:$main-header-color;
+    }
+    .hidden{
+        display:none;
+    }
+    font-size: $main-font-size;
+
+    background-color: $main-bg-color;
+
+    margin: 0; 
+    border: 0;
+}
