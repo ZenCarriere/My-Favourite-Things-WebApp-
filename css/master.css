@@ -1,0 +1,85 @@
+body {
+  font-family: "Futura", "helvetica", sans-serif;
+  color: white;
+  font-size: 18px;
+  background-color: #A9D6D4;
+  margin: 0;
+  border: 0; }
+body h1, body h2 {
+  font-family: "Verdana", "helvetica", sans-serif;
+  color: #292929; }
+body .hidden {
+  display: none; }
+
+header {
+  display: block;
+  margin-left: 8%; }
+header h1 {
+  width: 90%;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  color: #2A5754; }
+
+.fave-section {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  line-height: 35px; }
+.fave-section h2 {
+  font-size: 32px;
+  color: #445756; }
+.fave-section .fave-start {
+  margin-bottom: 70px; }
+.fave-section p {
+  background-color: #2A5754;
+  padding: 7px;
+  border-radius: 7px; }
+
+footer p {
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #2A5754;
+  font-size: 16px; }
+footer #leftfoot {
+  margin-top: 100px; }
+
+@media screen and (min-width: 800px) {
+  header {
+    margin-left: 8%; }
+  header h1 {
+    width: 60%;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 40px; }
+
+  .fave-section {
+    margin-left: 16%;
+    margin-right: 16%;
+    line-height: 40px; }
+  .fave-section h2 {
+    font-size: 34px; }
+  .fave-section .fave-start {
+    margin-bottom: 120px; }
+  .fave-section p {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px; }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px; }
+  footer p {
+    margin-left: 0%;
+    margin-right: 0px;
+    font-size: 18px; }
+  footer #leftfoot {
+    margin-top: 0px;
+    margin-left: 8%; }
+  footer #rightfoot {
+    margin-top: 0px;
+    margin-left: 40%; } }
+
+/*# sourceMappingURL=master.css.map */
