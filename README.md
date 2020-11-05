@@ -4,7 +4,7 @@ The site and all its mysteries enclosed give a breakdown on some of my favourite
 
 ## Installation
 
-Just pull down the repo and insert the database included into your localhost and ensure correct file paths then you should be able to view everything correctly by running the website through your localhost in browser
+Just pull down the repo and insert the database included into your localhost and ensure correct file paths then you should be able to view everything correctly by running the website through your localhost in browser.
 
 ## Usage
 
