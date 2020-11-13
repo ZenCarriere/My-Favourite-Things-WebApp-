@@ -2,7 +2,7 @@ let errorCodes = {
     404: "Not Found, please check your URL.",
     500: "Error with the server",
     403: "Credentials needed to pass beyond this point",
-    503: "Eror, servers are unavailable. Try again soon."
+    503: "Error, servers are unavailable. Try again soon."
 }
 
 async function fetchData(sourceURL) {
@@ -21,7 +21,12 @@ async function fetchData(sourceURL) {
     let dataset = await resource.json();
 
     return dataset[0];
-    
-    debugger;
 }
+
+async function postData(sourceURL) {
+    // use fetch or Axios to post to a database here
+
+    return "You are using the postData API endpoint";
+}
+
 export { fetchData };
