@@ -10,7 +10,7 @@
     //This is the DB credentials
 
     $db_user = 'root';
-    $db_pass = '';
+    $db_pass = '';//WINDOWS USER, FILL AS NEEDED
 
     try{
         $pdo = new PDO($dsn, $db_user, $db_pass);

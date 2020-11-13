@@ -1,14 +1,32 @@
 <?php
-include("connect.php");//just like an import statement
+    include("connect.php");
+    $result = array();
 
-$query = "SELECT * FROM tbl_myfavethings";
 
-$runQuery = $pdo->query($query);
+function getAllFave($conn) {
 
-$result = array();
+    $query = "SELECT * FROM tbl_myfavethings";
 
-while($row = $runQuery->fetchAll(PDO::FETCH_ASSOC)){
-    $result[] = $row;
+    $runQuery = $conn->query($query);
+
+    while($row = $runQuery->fetchAll(PDO::FETCH_ASSOC)){
+        $result[] = $row;
+    }
+
+    echo (json_encode($result));
+
 }
 
-echo (json_encode($result));
+function getSingleFave($conn, $id) {
+
+    $query = "SELECT * FROM tbl_myfavethings WHERE ID= $id";
+
+    $runQuery = $conn->query($query);
+
+    while($row = $runQuery->fetchAll(PDO::FETCH_ASSOC)){
+        $result[] = $row;
+    }
+
+    echo (json_encode($result));
+
+}
